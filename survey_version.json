@@ -1,0 +1,134 @@
+{
+  "Stages": [
+    {
+      "Stage-0/2": [
+        {
+          "question_id": 1,
+          "question": "يرفع الرأس والخد عندما ينام على بطنه",
+          "answer": "نعم",
+          "domain": "الحركة",
+          "answerReport": "",
+          "endingWeek": 8,
+          "answeredAt": "23/6/2022"
+        },
+        {
+          "question_id": 2,
+          "question": "يحرّك يديه و رجليه بسلاسة",
+          "answer": "نعم",
+          "domain": "الحركة"
+        },
+        {
+          "question_id": 3,
+          "question": "يفتح اليدين لفترة وجيزة",
+          "answer": "نعم",
+          "domain": "الحركة"
+        },
+        {
+          "question_id": 4,
+          "question": "ينظر الى اللعبة لعدة ثوان",
+          "answer": "نعم",
+          "domain": "الحركة"
+        },
+        {
+          "question_id": 5,
+          "question": "يصدر اصوات هديل و مناغاة  غير البكاء  مثل اغو و اوو",
+          "answer": "نعم",
+          "domain": "السمع والنطق"
+        },
+        {
+          "question_id": 6,
+          "question": "يتفاعل مع الأصوات العالية",
+          "answer": "السمع والنطق"
+        }
+      ]
+    }
+  ]
+}
+
+// {
+//     "questions" :
+//     [
+//       {
+//       "id": 1,
+//       "description": "يرفع الرأس والخد عندما ينام على بطنه",
+//       "startingWeek": 3,
+//       "endingWeek": 8,
+//       "category": 1,
+//       "imagePath": "assets/images/children/infant1.jpeg",
+//       "videoPath": ""
+//     }
+
+//       {
+//         "question_id": 1,
+//         "question": "يرفع الرأس والخد عندما ينام على بطنه",
+//         "answer": "نعم"
+
+//       },
+//       {
+//         "number": 2,
+//         "type": "multi",
+//         "text": "What do you look for when you buy online?",
+//         "possible_answers":
+//         [
+//           "Cheap price",
+//           "Quality",
+//           "Quantity",
+//           "Brand name",
+//           "Trend",
+//           "Rarity"
+//         ]
+//       },
+//       {
+//         "number": 3,
+//         "type": "radio",
+//         "text": "How much do you usually spend on shopping per month?",
+//         "possible_answers":
+//         [
+//           "$0 ~ $100",
+//           "$100 ~ $500",
+//           "$500 ~ $1000",
+//           "$1000 ~ $2000",
+//           "Much more than that!"
+//         ]
+//       },
+//       {
+//         "number": 4,
+//         "type": "multi",
+//         "text": "What shopping sites do you use?",
+//         "possible_answers":
+//         [
+//           "Amazon",
+//           "eBay",
+//           "Alibaba",
+//           "Zappos",
+//           "Blue Nile"
+//         ]
+//       },
+//       {
+//         "number": 5,
+//         "type": "multi",
+//         "text": "What interests you?",
+//         "possible_answers":
+//         [
+//           "Clothing, shoes, and accessories",
+//           "Health and beauty",
+//           "Personal electronics",
+//           "Games, movies, and music",
+//           "Jewelry, gems, and watches"
+//         ]
+//       },
+//       {
+//         "number": 6,
+//         "type": "radio",
+//         "text": "What comprises your shopping list the most?",
+//         "possible_answers":
+//         [
+//           "Holiday and birthday gifts",
+//           "Food",
+//           "Sports & outdoors gears",
+//           "Home improvement tools",
+//           "Handmade products"
+//         ]
+//       }
+//     ]
+//   }
