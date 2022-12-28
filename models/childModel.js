@@ -30,7 +30,7 @@ const childSchema = new mongoose.Schema({
       message: '{VALUE} is not supported',
     },
   },
-  user: [{ type: mongoose.Schema.ObjectId, ref: 'User' }],
+  user: { type: mongoose.Schema.ObjectId, ref: 'User' },
   createdAt: {
     type: Date,
     default: Date.now,

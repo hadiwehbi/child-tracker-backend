@@ -29,17 +29,17 @@ const userSchema = new mongoose.Schema({
     minlength: 8,
     select: false,
   },
-  passwordConfirm: {
-    type: String,
-    required: [true, 'Please confirm your password'],
-    validate: {
-      // This only works on CREATE and SAVE!!!
-      validator: function (el) {
-        return el === this.password;
-      },
-      message: 'Passwords are not the same!',
-    },
-  },
+  // passwordConfirm: {
+  //   type: String,
+  //   required: [true, 'Please confirm your password'],
+  //   validate: {
+  //     // This only works on CREATE and SAVE!!!
+  //     validator: function (el) {
+  //       return el === this.password;
+  //     },
+  //     message: 'Passwords are not the same!',
+  //   },
+  // },
   passwordChangedAt: Date,
   passwordResetToken: String,
   passwordResetExpires: Date,
@@ -61,39 +61,39 @@ const userSchema = new mongoose.Schema({
 }
 );
 
-userSchema.pre('save', async function (next) {
-  // Only run this function if password was actually modified
-  if (!this.isModified('password')) return next();
+// userSchema.pre('save', async function (next) {
+//   // Only run this function if password was actually modified
+//   if (!this.isModified('password')) return next();
 
-  // Hash the password with cost of 12
-  this.password = await bcrypt.hash(this.password, 12);
+//   // Hash the password with cost of 12
+//   this.password = await bcrypt.hash(this.password, 12);
 
-  // Delete passwordConfirm field
-  this.passwordConfirm = undefined;
-  next();
-});
-
-userSchema.pre('save', function (next) {
-  if (!this.isModified('password') || this.isNew) return next();
-
-  this.passwordChangedAt = Date.now() - 1000;
-  next();
-});
-
-// userSchema.pre(/^find/, function(next) {
-//   // this points to the current query
-//   this.find({ active: { $ne: false } });
+//   // Delete passwordConfirm field
+//   this.passwordConfirm = undefined;
 //   next();
 // });
 
-userSchema.pre(/^find/, function (next) {
-  this.populate({
-    path: 'childs',
-    // select: '-__v -passwordChangedAt'
-  });
+// userSchema.pre('save', function (next) {
+//   if (!this.isModified('password') || this.isNew) return next();
 
-  next();
-});
+//   this.passwordChangedAt = Date.now() - 1000;
+//   next();
+// });
+
+// // userSchema.pre(/^find/, function(next) {
+// //   // this points to the current query
+// //   this.find({ active: { $ne: false } });
+// //   next();
+// // });
+
+// userSchema.pre(/^find/, function (next) {
+//   this.populate({
+//     path: 'childs',
+//     // select: '-__v -passwordChangedAt'
+//   });
+
+//   next();
+// });
 
 userSchema.methods.correctPassword = async function (
   candidatePassword,

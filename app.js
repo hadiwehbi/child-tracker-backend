@@ -8,12 +8,13 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const xss = require('xss-clean');
 const hpp = require('hpp');
-const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const compression = require('compression');
 const mongoSanitize = require('express-mongo-sanitize');
 const dotenv = require('dotenv');
+const mongoose = require('mongoose')
 
+// const { conn } = require('./models/connection');
 const childRouter = require('./routes/childRoutes');
 const userRouter = require('./routes/userRoutes');
 const AppError = require('./utils/appError');
@@ -36,7 +37,7 @@ app.use(cors());
 app.options('*', cors());
 
 if (process.env.NODE_ENV === 'development') {
-  app.use(logger('dev'));
+	app.use(logger('dev'));
 }
 
 app.use(express.json({ limit: '10kb' }));
@@ -51,9 +52,9 @@ app.use(helmet());
 
 // Limit requests from same API
 const limiter = rateLimit({
-  max: 30,
-  windowMs: 60 * 60 * 1000,
-  message: 'Too many requests from this IP, please try again in an hour!',
+	max: 50,
+	windowMs: 60 * 60 * 1000,
+	message: 'Too many requests from this IP, please try again in an hour!'
 });
 app.use('/api', limiter);
 
@@ -65,16 +66,16 @@ app.use(xss());
 
 // Prevent parameter pollution
 app.use(
-  hpp({
-    whitelist: [
-      'duration',
-      'ratingsQuantity',
-      'ratingsAverage',
-      'maxGroupSize',
-      'difficulty',
-      'price',
-    ],
-  })
+	hpp({
+		whitelist: [
+			'duration',
+			'ratingsQuantity',
+			'ratingsAverage',
+			'maxGroupSize',
+			'difficulty',
+			'price'
+		]
+	})
 );
 
 app.use(compression());
@@ -95,15 +96,30 @@ const connectDB = async () => {
 
 connectDB();
 
+// mongoose.connect(process.env.DATABASE_LOCAL, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true
+// });
+
+// const conn = mongoose.connection;
+
+// conn.on('error', () => console.error.bind(console, 'connection error'));
+
+// conn.once('open', () => console.info('Connection to Database is successful'));
+
+// const session = conn.startSession();
+// const abortTransaction = session.abortTransaction();
+
 // ROUTES
 app.use('/api/user', userRouter);
 app.use('/api/child', childRouter);
 
 app.all('*', (req, res, next) => {
-  next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
+	next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
 
 // error handler
 app.use(globalErrorHandler);
 console.log('-------------------- :>> ');
-module.exports = app;
+// module.exports = { app, conn, session, abortTransaction };
+module.exports = app ;
