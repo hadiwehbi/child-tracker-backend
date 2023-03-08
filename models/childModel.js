@@ -30,6 +30,9 @@ const childSchema = new mongoose.Schema({
       message: '{VALUE} is not supported',
     },
   },
+  data:{
+    type: Object,
+  },
   user: { type: mongoose.Schema.ObjectId, ref: 'User' },
   createdAt: {
     type: Date,
@@ -45,12 +48,12 @@ const childSchema = new mongoose.Schema({
   // },
 });
 
-childSchema.pre(/^find/, function (next) {
-  this.populate({
-    path: 'User',
-  });
-  next();
-});
+// childSchema.pre(/^find/, function (next) {
+//   this.populate({
+//     path: 'User',
+//   });
+//   next();
+// });
 
 // childSchema.pre(/^find/, function (next) {
 //   this.populate({

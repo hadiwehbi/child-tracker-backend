@@ -12,7 +12,7 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const mongoSanitize = require('express-mongo-sanitize');
 const dotenv = require('dotenv');
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 // const { conn } = require('./models/connection');
 const childRouter = require('./routes/childRoutes');
@@ -81,17 +81,17 @@ app.use(
 app.use(compression());
 
 const connectDB = async () => {
-  try {
-    await mongoose.connect(process.env.DATABASE_LOCAL, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+	try {
+		await mongoose.connect(process.env.DATABASE_LOCAL, {
+			useNewUrlParser: true,
+			useUnifiedTopology: true
+		});
 
-    console.log('MongoDB successfully connected');
-  } catch (err) {
-    console.error(err.message);
-    process.exit(1);
-  }
+		console.log('MongoDB successfully connected');
+	} catch (err) {
+		console.error(err.message);
+		process.exit(1);
+	}
 };
 
 connectDB();
@@ -111,8 +111,9 @@ connectDB();
 // const abortTransaction = session.abortTransaction();
 
 // ROUTES
-app.use('/api/user', userRouter);
-app.use('/api/child', childRouter);
+app.use('/api/v1/user', userRouter);
+app.use('/api/v1/child', childRouter);
+app.use('/api/v1/rate', childRouter);
 
 app.all('*', (req, res, next) => {
 	next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
@@ -122,4 +123,4 @@ app.all('*', (req, res, next) => {
 app.use(globalErrorHandler);
 console.log('-------------------- :>> ');
 // module.exports = { app, conn, session, abortTransaction };
-module.exports = app ;
+module.exports = app;

@@ -8,24 +8,6 @@ initializeApp({
 });
 
 const app = initializeApp();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const serverKey = '<SERVER_KEY>';
 const fcm = new FCM(serverKey);
 
