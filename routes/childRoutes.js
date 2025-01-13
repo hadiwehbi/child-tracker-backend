@@ -12,6 +12,7 @@ router.use(authController.protect);
 router.post('/add',childController.addChild);
 router.patch('/update',childController.updateChild);
 router.get('/get',childController.getChild);
+router.post('/softDelete',childController.softDeleteChild);
 router.delete('/delete',childController.deleteChild);
 
 module.exports = router;

@@ -58,6 +58,51 @@ exports.getMe = (req, res, next) => {
   next();
 };
 
+exports.getAllData = async (req, res) => {
+	try {
+		const user = await User.findOne({ _id: req.body.id });
+		if (!user) {
+			return res.status(404).json({
+				status: 'fail',
+				message: 'User not found'
+			});
+		}
+
+		const updatedUser = await User.updateOne({ _id: req.body.id }, req.body.data, {new: true});
+
+		res.status(200).json({
+			status: 'success',
+			data: { updatedUser }
+		});
+	} catch (err) {
+		console.log('err', err);
+		res.status(400).json(err);
+	}
+};
+
+exports.update = async (req, res) => {
+	try {
+		const user = await User.findOne({ _id: req.body.id });
+		if (!user) {
+			return res.status(404).json({
+				status: 'fail',
+				message: 'User not found'
+			});
+		}
+
+		const updatedUser = await User.updateOne({ _id: req.body.id }, req.body.data, {new: true});
+
+		res.status(200).json({
+			status: 'success',
+			data: { updatedUser }
+		});
+	} catch (err) {
+		console.log('err', err);
+		res.status(400).json(err);
+	}
+};
+
+
 exports.updateMe = catchAsync(async (req, res, next) => {
   // 1) Create error if user POSTs password data
   if (req.body.password || req.body.passwordConfirm) {

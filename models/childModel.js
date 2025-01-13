@@ -8,9 +8,18 @@ const childSchema = new mongoose.Schema({
     trim: true,
     required: [true, 'Enter your name!'],
   },
-  birthday: {
+  parentId:{
+    type: String,
+  },
+  dateOfBirth: {
     type: Date,
     required: [true, 'Enter your child birthday'],
+  },
+  active: {
+    type: Number,
+    default: 1,
+    min: 0,
+    max: 1,
   },
   photo: {
     type: String,
@@ -26,7 +35,7 @@ const childSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Enter your child gender'],
     enum: {
-      values: ['male', 'female'],
+      values: ['Male', 'Female'],
       message: '{VALUE} is not supported',
     },
   },

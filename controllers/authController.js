@@ -31,6 +31,9 @@ exports.login = catchAsync(async (req, res, next) => {
   // 2) Check if user exists && password is correct
   const user = await User.findOne({ email }).select('+password');
 
+  console.log('password, user.password', password, user.password)
+  console.log(await user.correctPassword(password, user.password))
+
   if (!user || !(await user.correctPassword(password, user.password))) {
     return next(new AppError('Incorrect email or password', 401));
   }
@@ -45,6 +48,10 @@ exports.logout = (req, res) => {
     httpOnly: true,
   });
   res.status(200).json({ status: 'success' });
+};
+
+exports.test = (req, res) => {
+  res.status(200).json('<h1> Hi from Child Tracker Backend Server </h1>');
 };
 
 exports.protect = catchAsync(async (req, res, next) => {

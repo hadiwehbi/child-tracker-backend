@@ -14,11 +14,11 @@ const addChild = async (req, res) => {
 		const newChild = await Child.create([req.body], { session });
 
 		console.log('-------> doc', newChild);
-		const parent = await User.findOne({ _id: req.body.parent_id });
+		const parent = await User.findOne({ _id: req.body.parentId });
 
 		console.log('-------> parent', parent);
 
-		parent.childs.push(newChild._id);
+		parent.children.push(newChild[0]._id);
 
 		const saveParent = await parent.save();
 		console.log('------->', saveParent);
@@ -83,7 +83,51 @@ const updateChild = async (req, res) => {
 	}
 };
 
-// const updateChild = factory.updateOne(Child);
-const deleteChild = factory.deleteOne(Child);
+const softDeleteChild = async (req, res) => {
+	try {
+		const child = await Child.findOne({ _id: req.body.id });
+		if (!child) {
+			return res.status(404).json({
+				status: 'fail',
+				message: 'Child not found'
+			});
+		}
 
-module.exports = { addChild, getChild, updateChild, deleteChild };
+		const updatedChild = await Child.updateOne({ _id: req.body.id }, req.body.data);
+
+		res.status(200).json({
+			status: 'success',
+			data: { updatedChild }
+		});
+	} catch (err) {
+		console.log('err', err);
+		res.status(400).json(err);
+	}
+};
+
+const deleteChild = async (req, res) => {
+	try {
+		const child = await Child.findByIdAndDelete({ _id: req.body.id });
+
+		if (!child) {
+			return res.status(404).json({
+				status: 'fail',
+				message: 'Child not found'
+			});
+		}
+
+		res.status(204).json({
+			status: 'success',
+			message: 'Child Deleted Successfully'
+		});
+	} catch (err) {
+		console.log('err', err);
+		res.status(400).json(err);
+	}
+};
+
+// const deleteChild = factory.deleteOne(Child);
+
+// const updateChild = factory.updateOne(Child);
+
+module.exports = { addChild, getChild, updateChild, softDeleteChild, deleteChild };

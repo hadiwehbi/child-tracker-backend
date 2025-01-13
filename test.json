@@ -1,0 +1,2081 @@
+[
+	{
+		"_id": "6448dc4d346edb8038c58293",
+		"name": "Mortada Termos",
+		"email": "mortada2@gmail.com",
+		"photo": "default.jpg",
+		"children": [
+			{
+				"active": 1,
+				"_id": "6448eadfc37f715597907277",
+				"childName": "new1",
+				"dateOfBirth": "2020-08-15T00:00:00.000Z",
+				"photo": "default.jpg",
+				"pregnancyDuration": 30,
+				"gender": "Male",
+				"createdAt": "2023-04-26T09:11:59.914Z",
+				"__v": 0
+			},
+			{
+				"active": 1,
+				"_id": "6448eae7c37f71559790727c",
+				"childName": "new2",
+				"dateOfBirth": "2020-08-15T00:00:00.000Z",
+				"photo": "default.jpg",
+				"pregnancyDuration": 30,
+				"gender": "Male",
+				"createdAt": "2023-04-26T09:12:07.815Z",
+				"__v": 0
+			},
+			{
+				"_id": "6448eaeac37f715597907281",
+				"childName": "Hadi A",
+				"dateOfBirth": "2020-08-15T00:00:00.000Z",
+				"photo": "default.jpg",
+				"pregnancyDuration": 30,
+				"gender": "Male",
+				"createdAt": "2023-04-26T09:12:10.878Z",
+				"__v": 0,
+				"active": 0,
+				"data": {
+					"childID": 1678838400000,
+					"milestones": [
+						{
+							"number": 1,
+							"question": "يرفع الرأس والخد عندما ينام على بطنه",
+							"category": 1,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 2,
+							"question": "يحرّك يديه و رجليه بسلاسة",
+							"category": 1,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 3,
+							"question": "يفتح اليدين لفترة وجيزة",
+							"category": 1,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 4,
+							"question": "يراقب أحد الوالدين عندما يتحرك",
+							"category": 2,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 5,
+							"question": "ينظر الى اللعبة لعدة ثوان",
+							"category": 2,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 6,
+							"question": "يصدر اصوات هديل و مناغاة  غير البكاء  مثل اغو و اوو",
+							"category": 3,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 7,
+							"question": "يلتفت إلى الاصوات المرتفعة ويتفاعل مع الأصوات العالية",
+							"category": 3,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 8,
+							"question": "يهدأ عند التحدث اليه أو حمله",
+							"category": 4,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 9,
+							"question": "ينظر الى وجهك",
+							"category": 4,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 10,
+							"question": "يبدو سعيداً لرؤيتك عندما تتجه نحوه",
+							"category": 4,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 11,
+							"question": "يبتسم عندما تتكلم معه أو تبتسم له",
+							"category": 4,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 12,
+							"question": "يبقي رأسه ثابتاً بدون مساعدة عندما يكون محمولاً",
+							"category": 1,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 13,
+							"question": "يستطيع إمساك لعبة عندما تضعيها في يده",
+							"category": 1,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 14,
+							"question": "يستخدم ذراعه كي يهزّ لعبة أو يمد يديه للوصول الى الالعاب المتدلية",
+							"category": 1,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 15,
+							"question": "يقرّب يديه الى فمه",
+							"category": 1,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 16,
+							"question": "يتكيء على كوعيه لرفع رأسه عندما يكون مستلقيا على بطنه",
+							"category": 1,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 17,
+							"question": "يفتح فمه اذا كان جائعاً عندما يرى الثدي أو زجاجة الحليب",
+							"category": 2,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 18,
+							"question": "ينظر الى يديه بإهتمام",
+							"category": 2,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 19,
+							"question": "يسجع ويصدر أصواتا  (أغغ و أووو)",
+							"category": 3,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 20,
+							"question": "يتجاوب ويصدر أصواتاً عندما تتكلمين معه",
+							"category": 3,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 21,
+							"question": "يلتفت الى مصدر صوتك يدير رأسه نحو مصدر الصوت",
+							"category": 3,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 22,
+							"question": "يبتسم تلقائياً ليلفت الأنتباه",
+							"category": 4,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 23,
+							"question": "يضحك بصوت خافت عند محاولة إضحاكه",
+							"category": 4,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 24,
+							"question": "ينظر اليك، يتحرك، أو يصدر أصواتاً للفت الأنتباه",
+							"category": 4,
+							"startingAge": 2,
+							"endingAge": 4,
+							"period": 2,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 25,
+							"question": "يستطيع التقلّب الى ظهره  و هو مستلقي على بطنه",
+							"category": 1,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 26,
+							"question": "يتكيء على الذراعين المستقيمين عندما يكون مستلقيا على بطنه",
+							"category": 1,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 27,
+							"question": "عند الجلوس يتكئ على يديه لدعم نفسه",
+							"category": 1,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 28,
+							"question": "يضع الأشياء في فمه للأستكشاف",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 29,
+							"question": "يحاول إلتقاط اللعبة التي يريدها",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 30,
+							"question": "يغلق شفتيه ليظهر أنه لا يريد المزيد من الطعام",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 31,
+							"question": "يستجيب لك و يصدر  أصواتاً",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 32,
+							"question": "ينفخ فمه و يخرج لسانه لإصدار أصوات ويتفتف",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 33,
+							"question": "يصدر أصواتا عميقة كالصرير",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 34,
+							"question": "يعرف الوجوه المألوفة و يميّز الغرباء",
+							"category": 4,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 35,
+							"question": "يحب أن ينظر إلى نفسه أمام المرآة",
+							"category": 4,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 36,
+							"question": "يضحك",
+							"category": 4,
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 37,
+							"question": "يمكنه أن يأخذ وضعية الجلوس بمفرده",
+							"category": 1,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 38,
+							"question": "يجلس دون مساعدة",
+							"category": 1,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 39,
+							"question": "يستخدم أصابعه لجرف الطعام نحوه",
+							"category": 1,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 40,
+							"question": "ينقل الأشياء من يدٍ إلى أخرى",
+							"category": 1,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 41,
+							"question": "يبحث عن الأشياء التي تسقط وتصبح بعيدة عن نظره  كالملعقة أو اللعبة",
+							"category": 2,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 42,
+							"question": "يطرق  لعبة بأخرى",
+							"category": 2,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 43,
+							"question": "يتمتم  'بابا' و 'ماما' و'دادا'",
+							"category": 3,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 44,
+							"question": "يرفع يديه إشارة بأنَه يريد أن يُحمل",
+							"category": 3,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 45,
+							"question": "خجول أو  خائف (قلق)  مع الغرباء و متشبث بوالديه ",
+							"category": 4,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 46,
+							"question": "يظهر تعابير مختلفة في وجهه (فرح، حزين، غاضب و متفاجيء)",
+							"category": 4,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 47,
+							"question": "يلتفت  عند المناداة بإسمه",
+							"category": 4,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 48,
+							"question": "يتفاعل عندما تغادر أو تبتعد عن نظره، (يبحث عنك و يحاول الوصول اليك أو يبكي)",
+							"category": 4,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 49,
+							"question": "يبتسم أو يضحك عند اللعب 'بالغميضة'",
+							"category": 4,
+							"startingAge": 6,
+							"endingAge": 9,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 50,
+							"question": "يمكنه أن يسحب نفسه ليقف",
+							"category": 1,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 51,
+							"question": "يخطو و  يمشي  مستنداً على أثاث البيت",
+							"category": 1,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 52,
+							"question": " يمكنه أن يشرب من كوب بلا غطاء تحمله له",
+							"category": 1,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 53,
+							"question": "يلتقط قطعة بسكويت بابهامه وسبابته",
+							"category": 1,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 54,
+							"question": "يضع الأغراض في حاوية مثلا يضع المكعب في الكوب",
+							"category": 2,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 55,
+							"question": "يبحث عن الأشياء بعد أن يراك تخبئينها كوضع لعبة تحت البطانية",
+							"category": 2,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 56,
+							"question": " يلوح بيده للإشارة \"باي-باي\"",
+							"category": 3,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 57,
+							"question": "يستخدم 'ماما' و 'دادا' للإشارة الى الوالدين أو مقدّمي الرعاية. ينادي أحد الوالدين 'ماما' أو 'بابا' أو أي أسم أخر مفضّل لديه",
+							"category": 3,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 58,
+							"question": "يستوعب كلمة  'لا' (يتوقف لفترة وجيزة عند سماعها)",
+							"category": 3,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 59,
+							"question": "يلعب معك 'زيت زيت يا حجّة' أو 'هيك بيبرم الدولاب و هيك بطيرو العصافير' والعاباً اخرى",
+							"category": 4,
+							"startingAge": 9,
+							"endingAge": 12,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 60,
+							"question": "يمشي خطوات قليلة لوحده",
+							"category": 1,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 61,
+							"question": "يضع بعض الطعام في فمه باستخدام أصابعه",
+							"category": 1,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 62,
+							"question": "يحاول استخدام الأشياء بالطريقة الصحيحة كالهاتف، الكوب أو الكتاب",
+							"category": 2,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 63,
+							"question": "يضع مكعبين صغيرين فوق بعض",
+							"category": 2,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 64,
+							"question": "يقول كلمة أو كلمتين غير 'بابا' و 'ماما' مثل 'مه أو مبو' للدلالة على الماء او 'ضو' للدلالة على الضوء",
+							"category": 3,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 65,
+							"question": "يلتفت إلى الشيئ الذي يعرفه عندما تسمَيه له ",
+							"category": 3,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 66,
+							"question": "ينفذ أمر بسيط مع الإشارة مثل: اعطني اللعبة (يمكنك تمثيل الحركة)",
+							"category": 3,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 67,
+							"question": "يشير باصبعه لما يريد أو لطلب المساعدة",
+							"category": 3,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 68,
+							"question": "يقلّد  أولاداً أخرين عند اللعب مثل أخراج الألعاب من الوعاء",
+							"category": 4,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 69,
+							"question": "يريك شيئاً يحبه",
+							"category": 4,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 70,
+							"question": "يصفق عندما يكون متحمساً",
+							"category": 4,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 71,
+							"question": "يعانق دميته أو ألعاب أخرى",
+							"category": 4,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 72,
+							"question": "يظهر لك العاطفة (العناق،الحضن أو التقبيل)",
+							"category": 4,
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 73,
+							"question": "يمشي لوحده من دون أي مساعدة",
+							"category": 1,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 74,
+							"question": "يحاول الرسم (خربشة عشوائية)",
+							"category": 1,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 75,
+							"question": "يشرب من كوب من دون غطاء (يمكنه إراقة القليل في بعض الأحيان)",
+							"category": 1,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 76,
+							"question": "يأكل  وحده مستخدماً أصابعه",
+							"category": 1,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 77,
+							"question": "يحاول إستخدام الملعقة",
+							"category": 1,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 78,
+							"question": "يصعد وينزل عن الأثاث من دون مساعدة",
+							"category": 1,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 79,
+							"question": "يقلد بالاعمال المنزلية كتنظيف الارض  بالمكنسة ",
+							"category": 2,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 80,
+							"question": "يلعب بالألعاب بطريقة بسيطة كدفع السيارة",
+							"category": 2,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 81,
+							"question": "يقول أكثر من ثلاث كلمات بالإضافة إلى \"بابا\" و \"ماما\"",
+							"category": 3,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 82,
+							"question": "ينفذ أمر من خطوة واحدة مثل أعطني اللعبة من دون الإشارة بالحركة",
+							"category": 3,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 83,
+							"question": "يبتعد عن والديه ولكنه ينظر اليهم للتأكد انهم بقربه",
+							"category": 4,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 84,
+							"question": "يدل بأصبعه للدلالة على شيء يهمه",
+							"category": 4,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 85,
+							"question": "يمد يديه لك لغسلهم",
+							"category": 4,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 86,
+							"question": "ينظر  معك إلى بضع  صفحات كتاب تقرئيه له",
+							"category": 4,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 87,
+							"question": "يساعدك على وضع  ثيابه من خلال وضع ذراعه في الكم أو رفع قدمه عالياً",
+							"category": 4,
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 88,
+							"question": "يركض",
+							"category": 1,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 89,
+							"question": "يصعد وينزل الدرج بدون أو مع مساعدة (مستمسكا بالدرابزين أو بيدك)",
+							"category": 1,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 90,
+							"question": "يركل الطابة",
+							"category": 1,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 91,
+							"question": "يستخدم الملعقة ليأكل",
+							"category": 1,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 92,
+							"question": "يحمل في يد واحدة أثناء استخدام اليد الأخرى (يحمل الوعاء بيد ويرفع الغطاء بيد أخرى)  ",
+							"category": 2,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 93,
+							"question": "يحاول أستخدام المفاتيح الكهربائية، مقابض الأبواب أو أزرار اللعبة",
+							"category": 2,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 94,
+							"question": "يلعب بأكثر من لعبة في نفس الوقت كوضع الطعام بالصحن المخصص للعب",
+							"category": 2,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 95,
+							"question": "يشير إلى الصورة الصحيحة عند تسميتها له (مثلاً: أين الكلب؟)",
+							"category": 3,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 96,
+							"question": "يؤلّف جملة من كلمتين على الأقّل (مثلاً: بدّي حليب بعد)",
+							"category": 3,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 97,
+							"question": "عند سؤاله يشير الى عضوين من جسمه على الأقّل",
+							"category": 3,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 98,
+							"question": "يستخدم المزيد من الإيماءات من مجرَد التلويح والإشارة مثل وهب قبلة أو هز الرأس إشارة إلى نعم",
+							"category": 3,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 99,
+							"question": "يلاحظ عندما يتأذى أو يحزن الأخرون, يتوقف عن اللعب أو يبدو حزيناً عندما يبكي شخص ما ",
+							"category": 4,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 100,
+							"question": "ينظر لوجهك ليرى كيف يتصرّف في موقف جديد",
+							"category": 4,
+							"startingAge": 18,
+							"endingAge": 24,
+							"period": 8,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 101,
+							"question": "يفتح ويغلق بحركة دائرية اغطية الاوعية، المكسرات، والبراغي",
+							"category": 1,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 102,
+							"question": "يخلع بعض ملابسه بنفسه (سترة مفتوحة أو سروال واسع )",
+							"category": 1,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 103,
+							"question": "يقفز عن الأرض  بقدميه معاً",
+							"category": 1,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 104,
+							"question": "يقلب صفحات الكتاب صفحة تلو الأخرى",
+							"category": 1,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 105,
+							"question": "يتظاهر بأطعام الدمية أشياء غير حقيقية (مكعب صغير)  كأنه طعام",
+							"category": 2,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 106,
+							"question": "يظهر  مهارته لحل المشكلات المبسّطة  كالوقوف على  كرسي صغير ليصل الي شيء ما",
+							"category": 2,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 107,
+							"question": "يتبع أرشادات مؤلفة من خطوتين مثلاً ضع اللعبة في الأسفل وأغلق الباب",
+							"category": 2,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 108,
+							"question": "يظهر  أنه يعرف لون واحد على الأقل كالأشارة الى اللون الاحمر عندما تساله \"أي قلم لونه أحمر؟\"",
+							"category": 2,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 109,
+							"question": "يقول 50 كلمة",
+							"category": 3,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 110,
+							"question": "يقول كلمتين أو أكثر تعبر عن  فعل ما  مثلاً: الكلب يركض",
+							"category": 3,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 111,
+							"question": "يسمَي الصور في الكتاب عند سؤاله : \"ما هذا\"",
+							"category": 3,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 112,
+							"question": "يستخدم الضمائر (أنا، أنت،  نحن، هم)",
+							"category": 3,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 113,
+							"question": "يلعب بجانب الأطفال الآخرين وأحيانًا يلعب معهم",
+							"category": 4,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 114,
+							"question": "يظهر لك ما يمكن أن يفعله قائلاً  \"أنظر الي\"",
+							"category": 4,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 115,
+							"question": "يتبع روتين بسيط كالمساعدة في توضيب الألعاب عند القول \"حان وقت التنظيف\"",
+							"category": 4,
+							"startingAge": 24,
+							"endingAge": 30,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 116,
+							"question": "يدخل أشياء في شريط مثل سلسلة من المعكرونة",
+							"category": 1,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 117,
+							"question": "يلبس بعض ملابسه بنفسه  كالسروال الواسع أو السترة",
+							"category": 1,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 118,
+							"question": "يستخدم الشوكة",
+							"category": 1,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 119,
+							"question": "يرسم دائرة بعد أن يشاهدك ترسمها",
+							"category": 2,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 120,
+							"question": "يتجنب لمس الأشياء الساخنة  كالفرن  عندما تحذره  منه",
+							"category": 2,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 121,
+							"question": "يحاورك و يتحدث معك بما لا يقل عن تبادلين كلاميين ( أخد و عطى)",
+							"category": 3,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 122,
+							"question": "يسأل \"من\"، \"ماذا\"، \"أين\" و\"لماذا\" مثل: أين أمي/أبي؟",
+							"category": 3,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 123,
+							"question": "يخبرك عما يجري في الصورة  عند سؤاله (مثلاً: يركض، يأكل أو يلعب الولد)",
+							"category": 3,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 124,
+							"question": "يقول إسمه الأول عند سؤاله عنه",
+							"category": 3,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 125,
+							"question": "يتحدّث بشكل مفهوم من الغرباء في معظم الأحيان يتحدث بشكل جيد معظم الوقت ليفهمه الأخرين",
+							"category": 3,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 126,
+							"question": "يهدأ في غضون 10 دقائق بعد تركه مثلا في حضانة الأطفال",
+							"category": 4,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 127,
+							"question": "ينتبه وينضم الى الأطفال الأخرين للعب  معهم",
+							"category": 4,
+							"startingAge": 30,
+							"endingAge": 36,
+							"period": 10,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 128,
+							"question": "يلتقط طابة كبيرة في معظم الأحيان",
+							"category": 1,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 129,
+							"question": "يسكب أو يصبّ طعامه تحت إشراف  مقدمي الرعاية",
+							"category": 1,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 130,
+							"question": "يفك بعض أزرار ثيابه",
+							"category": 1,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 131,
+							"question": "يمسك أقلام التلوين أو قلم الرصاص بين أصابعه و إبهامه (ليس في قبضته)",
+							"category": 1,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 133,
+							"question": "يسمي بعض ألوان الأشياء بشكل صحيح",
+							"category": 2,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 134,
+							"question": "يروي ما سيحصل  في القصة المفضلة لديه",
+							"category": 2,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 135,
+							"question": "يرسم شخصاً من ثلاثة أجزاء أو أكثر من  أجزاء الجسم",
+							"category": 2,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 136,
+							"question": "يؤلف جملا من أربع كلمات أو أكثر",
+							"category": 3,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 137,
+							"question": "يردّد بعض الكلمات من أغنية أو قصّة أو عدّية",
+							"category": 3,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 138,
+							"question": "يروي شيء واحد على الأقل حدث معه خلال النهار مثل: لعبت كرة القدم",
+							"category": 3,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 139,
+							"question": "يجيب عل أسئلة بسيطة مثل: ما هو الغرض من المعطف؟ ماهو الغرض من قلم التلوين؟",
+							"category": 3,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 140,
+							"question": "يتظاهر أنه شخص أخر عند اللعب ( معلم(ة)، بطل، كلب)",
+							"category": 4,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 141,
+							"question": "يطالب باللعب مع رفاقه و إن لم يكونوا بالجوار مثل \"هل أستطيع اللعب مع رامي؟\"",
+							"category": 4,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 142,
+							"question": "يواسي الأخرين إذا حزنوا أو تعرضوا للأذى : مثلاً يعانق صديقه الباكي",
+							"category": 4,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 143,
+							"question": "يتجنب الخطر ، مثل عدم القفز من منصّات مرتفعة في الملعب",
+							"category": 4,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 144,
+							"question": "يغير سلوكه حسب المكان الذي هو فيه (صف المدرسة، محل عام، بيت خاص أو ملعب)",
+							"category": 4,
+							"startingAge": 3,
+							"endingAge": 4,
+							"period": 11,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 145,
+							"question": "يقفز على قدم واحدة",
+							"category": 1,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 146,
+							"question": "يستطيع إغلاق بعض الأزرار",
+							"category": 1,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 147,
+							"question": "يعدّ الى رقم 10",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 148,
+							"question": "يسمي بعض الأرقام بين 1 و5 عندما تدل عليها",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 149,
+							"question": "يستخدم كلمات عن الوقت كالبارحة، غداً، صباحاً او مساءً",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 150,
+							"question": "يمكنه التركيز لمدة مابين 5-10 دقائق خلال الأنشطة مثلا وقت قراءة القصة أو صنع الاشغال اليدوية (لا يحصى وقت مشاهدة الشاشة )",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 151,
+							"question": "يكتب بعض الأحرف من أسمه",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 152,
+							"question": "يسمي بعض الأحرف التي تشير اليها",
+							"category": 2,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 153,
+							"question": "يرددّ قصصاً سمعها تتألّف من حدثين على الأقل (مثلأً: تسلقت القطة الى أعلى الشجرة و جاءت أختي لتتلقّاها)",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 154,
+							"question": "يجيب على أسئلة بسيطة حول كتاب أو قصة بعد قرائته لها",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 155,
+							"question": "يحاورك و يتحدث معك بما لا يقل عن 3 تبادلات كلامية  (أخد و عطى)",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 156,
+							"question": "يتعرّف أو يستخدم  القوافي البسيطة مثل: \"كثير-كبير\" \"ركب-لعب\"",
+							"category": 3,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 157,
+							"question": "يتبع القواعد أو يتناوب في اللعب مع الأطفال الآخرين ",
+							"category": 4,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 158,
+							"question": "يغني، يرقص أو يمثّل لك",
+							"category": 4,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 159,
+							"question": "يقوم بالأعمال المنزلية البسيطة كطي الغسيل  أو تنظيف الطاولة بعد الأكل",
+							"category": 4,
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995132
+						}
+					],
+					"vaccines": [
+						{
+							"number": 1,
+							"question": "Hepatitis B (HepBV # 1)",
+							"startingAge": 0,
+							"endingAge": 1,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 2,
+							"question": "Hepatitis B (HepBV # 2)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 3,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #1) \nInactivated poliovirus  (IPV #1) \nHaemophilus influenzae type b conjugate (Hib#1)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 4,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #1)\nInactivated poliovirus  (IPV #1)\nHaemophilus influenzae type b conjugate  (Hib#1)\nHepatitis B (HepBV # 1 or 2)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 5,
+							"question": "Diphtheria and tetanus toxoids and whole cellular pertussis (DTWP #1)\nHaemophilus influenzae type b conjugate (Hib#1)\nHepatitis B (HepBV # 1 or 2)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 6,
+							"question": "Inactivated poliovirus  (IPV #1)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 7,
+							"question": "Pneumococcal conjugate (PCV 13 (or 10) # 1)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 8,
+							"question": "Rotavirus # 1",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 9,
+							"question": "HepBV # 2",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 10,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis  (DTaP #2) \nInactivated poliovirus (IPV #2) \nHaemophilus influenzae type b conjugate (Hib#2)",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 11,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #2)\n Inactivated poliovirus (IPV #2) \nHaemophilus influenzae type b conjugate (Hib#2) \nHepatitis B (HepBV # 2 or 3)",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 12,
+							"question": "Oral polio virus (OPV # 1)",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 13,
+							"question": "Diphtheria and tetanus toxoids and whole cellular pertussis  (DTWP #2) Haemophilus influenzae type b conjugate (Hib#2)\nHepatitis B (HepBV # 2 or 3)",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 14,
+							"question": "Pneumococcal conjugate (PCV 13 (or 10) # 2)",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 15,
+							"question": "Rotavirus # 2",
+							"startingAge": 4,
+							"endingAge": 5,
+							"period": 3,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 16,
+							"question": "HepBV # 3/4",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 17,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #3)\nInactivated poliovirus (IPV #3) \nHaemophilus influenzae type b conjugate (Hib#3)",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 18,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #3) \nInactivated poliovirus (IPV #3) \nHaemophilus influenzae type b conjugate (Hib#3) \nHepatitis B (HepBV # 3 or 4)",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 19,
+							"question": "Oral polio virus (OPV # 2)",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 20,
+							"question": "Diphtheria and tetanus toxoids and whole cellular pertussis (DTWP #3), Haemophilus influenzae type b conjugate (Hib#3) \nHepatitis B (HepBV # 3 or 4)",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 21,
+							"question": "Pneumococcal conjugate (PCV 13 (or 10) # 3",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 22,
+							"question": "Rotavirus # 3",
+							"startingAge": 6,
+							"endingAge": 8,
+							"period": 4,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 23,
+							"question": "Measles or measles, mumps, and rubella  (MMR # 1)",
+							"startingAge": 9,
+							"endingAge": 10,
+							"period": 5,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 24,
+							"question": "Measles, mumps, and rubella (MMR#1 or 2)",
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 25,
+							"question": "Varicella  (VZV # 1)",
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 26,
+							"question": "Hepatitis A (Hep Av) ",
+							"startingAge": 12,
+							"endingAge": 15,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 27,
+							"question": "Meningococcal  (ACWY) ",
+							"startingAge": 12,
+							"endingAge": 48,
+							"period": 6,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 28,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #4) Inactivated poliovirus (IPV #4)\nHaemophilus influenzae type b conjugate (Hib#4)",
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 29,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #4) Inactivated poliovirus (IPV #4)\nHaemophilus influenzae type b conjugate (Hib#4)  \nHepatitis B (HapBV # 4 or 5)",
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 30,
+							"question": "Oral polio virus (OPV # 3)",
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 31,
+							"question": "Diphtheria and tetanus toxoids and whole cellular pertussis (DTWP #4)\nHaemophilus influenzae type b conjugate (Hib#4)\n Hepatitis B (HepBV # 4 or 5)",
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 32,
+							"question": "Pneumococcal conjugate (PCV 13 (or 10) # 4",
+							"startingAge": 15,
+							"endingAge": 18,
+							"period": 7,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 33,
+							"question": "Hepatitis A (HepAV # 2)",
+							"startingAge": 24,
+							"endingAge": 48,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 34,
+							"question": "Typhoid (to be given every 2 years)",
+							"startingAge": 24,
+							"endingAge": 48,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 35,
+							"question": "Meningococcal  (ACWY) vaccine",
+							"startingAge": 12,
+							"endingAge": 48,
+							"period": 9,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 36,
+							"question": "Diphtheria and tetanus toxoids and acellular pertussis (DTaP #5) Inactivated poliovirus (IPV #5)",
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 37,
+							"question": "Diphtheria and tetanus toxoids and whole cellular pertussis (DTWP #4)",
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 38,
+							"question": "Oral poliovirus (OPV # 5)",
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 39,
+							"question": "Measles, mumps, and rubella  (MMR # 2)",
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 40,
+							"question": "Varicella VZV # 2",
+							"startingAge": 4,
+							"endingAge": 6,
+							"period": 12,
+							"decision": 1,
+							"takenAt": 1686657995143
+						}
+					]
+				}
+			},
+			{
+				"_id": "6464ad37bcc2bf4f50e92e95",
+				"childName": "Hadi A",
+				"dateOfBirth": "2020-08-15T00:00:00.000Z",
+				"active": 1,
+				"photo": "default.jpg",
+				"pregnancyDuration": 30,
+				"gender": "Male",
+				"createdAt": "2023-05-17T10:32:23.718Z",
+				"__v": 0,
+				"data": {
+					"childID": 1678838400000,
+					"milestones": [
+						{
+							"number": 1,
+							"question": "يرفع الرأس والخد عندما ينام على بطنه",
+							"category": 1,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						},
+						{
+							"number": 2,
+							"question": "يحرّك يديه و رجليه بسلاسة",
+							"category": 1,
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995132
+						}
+					],
+					"vaccines": [
+						{
+							"number": 1,
+							"question": "Hepatitis B (HepBV # 1)",
+							"startingAge": 0,
+							"endingAge": 1,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						},
+						{
+							"number": 2,
+							"question": "Hepatitis B (HepBV # 2)",
+							"startingAge": 1,
+							"endingAge": 2,
+							"period": 1,
+							"decision": 1,
+							"takenAt": 1686657995143
+						}
+					]
+				}
+			},
+			{
+				"_id": "6464adce1e91911f80950597",
+				"childName": "hadi1",
+				"parentId": "6448dc4d346edb8038c58293",
+				"dateOfBirth": "2020-08-15T00:00:00.000Z",
+				"active": 1,
+				"photo": "default.jpg",
+				"pregnancyDuration": 30,
+				"gender": "Male",
+				"createdAt": "2023-05-17T10:34:54.484Z",
+				"__v": 0
+			}
+		],
+		"__v": 9,
+		"phone": "123456",
+		"rating": [
+			{
+				"ratingId": 1,
+				"text": "ما هو تقييمكم لشكل التطبيق؟",
+				"rating": 2.5,
+				"takenAt": 1684271996662
+			},
+			{
+				"ratingId": 2,
+				"text": "ما هو تقييمكم لمحتوى التطبيق؟",
+				"rating": 3,
+				"takenAt": 1684277400667
+			},
+			{
+				"ratingId": 3,
+				"text": "ما هو تقييمكم للمحتوى التعليمي للتطبيق؟",
+				"rating": 3.5,
+				"takenAt": 1684277579784
+			}
+		],
+		"id": "6448dc4d346edb8038c58293"
+	}
+]

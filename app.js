@@ -13,10 +13,14 @@ const compression = require('compression');
 const mongoSanitize = require('express-mongo-sanitize');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
+const https = require('https');
+const fs = require('fs');
 
 // const { conn } = require('./models/connection');
+const logRouter = require('./routes/logRoutes');
 const childRouter = require('./routes/childRoutes');
 const userRouter = require('./routes/userRoutes');
+const adminRouter = require('./routes/adminRoutes');
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 
@@ -24,6 +28,18 @@ const globalErrorHandler = require('./controllers/errorController');
 
 const app = express();
 dotenv.config({ path: './config.env' });
+
+// https
+// 	.createServer(
+// 		{
+// 			key: fs.readFileSync('server.key'),
+// 			cert: fs.readFileSync('server.cert')
+// 		},
+// 		app
+// 	)
+// 	.listen(3000, function () {
+// 		console.log('Example app listening on port 3000! Go to https://localhost:3000/');
+// 	});
 
 app.enable('trust proxy');
 
@@ -40,20 +56,21 @@ if (process.env.NODE_ENV === 'development') {
 	app.use(logger('dev'));
 }
 
-app.use(express.json({ limit: '10kb' }));
-app.use(express.urlencoded({ extended: true, limit: '10kb' }));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cookieParser());
 
 // Serving static files
 app.use(express.static(path.join(__dirname, 'public')));
 
+// app.use(express.static('public'));
 // Set security HTTP headers
 app.use(helmet());
 
 // Limit requests from same API
 const limiter = rateLimit({
-	max: 50,
-	windowMs: 60 * 60 * 1000,
+	max: 5000,
+	windowMs: 60 * 1000,
 	message: 'Too many requests from this IP, please try again in an hour!'
 });
 app.use('/api', limiter);
@@ -89,6 +106,7 @@ const connectDB = async () => {
 
 		console.log('MongoDB successfully connected');
 	} catch (err) {
+		console.log(err);
 		console.error(err.message);
 		process.exit(1);
 	}
@@ -111,9 +129,11 @@ connectDB();
 // const abortTransaction = session.abortTransaction();
 
 // ROUTES
+
+app.use('/api/admin', adminRouter);
 app.use('/api/v1/user', userRouter);
 app.use('/api/v1/child', childRouter);
-app.use('/api/v1/rate', childRouter);
+app.use('/api/v1/log', logRouter);
 
 app.all('*', (req, res, next) => {
 	next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
