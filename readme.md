@@ -1,3 +1,61 @@
+## ⚙️ Environment Setup
+
+Before running the app, make sure your environment is correctly configured.
+
+### 🧱 Prerequisites
+
+- **Node.js** (v14 or newer)
+- **MongoDB** (local or cloud instance like MongoDB Atlas)
+- **npm** (for installing dependencies)
+
+### 🗂️ Setup Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/child-tracker-backend/readme.md
+   cd child-tracker-backend
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Create a `.env` file in the root directory and add the following:**
+
+   ```env
+   DATABASE_LOCAL=mongodb://localhost:27017/child-tracker
+   NODE_ENV=development
+   JWT_SECRET=####
+   JWT_EXPIRES_IN=90d
+   JWT_COOKIE_EXPIRES_IN=90
+   EMAIL_USERNAME=####
+   EMAIL_PASSWORD=####
+   EMAIL_HOST=smtp.example.com
+   EMAIL_PORT=587
+   ```
+
+   > Replace these values with your own. If you're not using email features, you can skip the SMTP-related variables.
+
+4. **Start MongoDB locally** (if not already running):
+
+   ```bash
+   mongod
+   ```
+
+5. **Start the server:**
+
+   ```bash
+   npm start
+   ```
+
+6. **Visit:**
+   ```
+   http://localhost:3000
+   ```
+
 # New Born Child Tracker
 
 ## Description
@@ -19,8 +77,8 @@ This is a Node.js and Express-based backend application designed to manage user,
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/child-tracker-backend/readme.md
+cd readme.md
 ```
 
 ### Install dependencies:
@@ -34,7 +92,7 @@ npm install
 Create a `.env` file in the root directory and add the following variables:
 
 ```env
-DATABASE_LOCAL=mongodb://localhost:27017/your-database-name
+DATABASE_LOCAL=mongodb://localhost:27017/child-tracker
 NODE_ENV=development
 ```
 
@@ -46,37 +104,88 @@ npm start
 
 ## API Documentation
 
-### Authentication
+### 🔐 Authentication
 
-- **Signup**: `POST /api/v1/user/signup`
-- **Login**: `POST /api/v1/user/login`
-- **Logout**: `GET /api/v1/user/logout`
-- **Forgot Password**: `POST /api/v1/user/forgotPassword`
-- **Reset Password**: `PATCH /api/v1/user/resetPassword/:token`
-- **Update Password**: `PATCH /api/v1/user/updateMyPassword`
+- **POST `/api/v1/user/signup`**  
+  Create a new user account.  
+  **Body**: `name`, `email`, `password`, `passwordConfirm`
 
-### User Management
+- **POST `/api/v1/user/login`**  
+  Log in with email and password.  
+  **Body**: `email`, `password`
 
-- **Get User Account**: `GET /api/v1/user/account`
-- **Update User**: `PATCH /api/v1/user/update`
+- **GET `/api/v1/user/logout`**  
+  Logs out the user.
 
-### Child Management
+- **POST `/api/v1/user/forgotPassword`**  
+  Request a password reset token.  
+  **Body**: `email`
 
-- **Add Child**: `POST /api/v1/child/add`
-- **Update Child**: `PATCH /api/v1/child/update`
-- **Get Child**: `GET /api/v1/child/get`
-- **Soft Delete Child**: `POST /api/v1/child/softDelete`
-- **Delete Child**: `DELETE /api/v1/child/delete`
+- **PATCH `/api/v1/user/resetPassword/:token`**  
+  Reset password using token.  
+  **Body**: `password`, `passwordConfirm`
 
-### Log Management
+- **PATCH `/api/v1/user/updateMyPassword`**  
+  Update password for the logged-in user.  
+  **Body**: `passwordCurrent`, `password`, `passwordConfirm`
 
-- **Add Log**: `POST /api/v1/log/add`
-- **Get All Logs**: `GET /api/v1/log/getAllLogs`
+---
 
-### Admin Features
+### 👤 User Management
 
-- **Get All Data (JSON)**: `POST /api/admin/getAllDataJson`
-- **Get All Data (Excel)**: `POST /api/admin/getAllData`
+- **GET `/api/v1/user/account`**  
+  Get the currently logged-in user's account info.
+
+- **PATCH `/api/v1/user/update`**  
+  Update user profile info.
+
+---
+
+### 👶 Child Management
+
+- **POST `/api/v1/child/add`**  
+  Add a child to the account.  
+  **Body**: `name`, `birthDate`, `gender`, `notes` _(optional)_
+
+- **PATCH `/api/v1/child/update`**  
+  Update child info.  
+  **Body**: `childId`, other updated fields
+
+- **GET `/api/v1/child/get`**  
+  Get all children for the user.
+
+- **POST `/api/v1/child/softDelete`**  
+  Soft-delete a child.  
+  **Body**: `childId`
+
+- **DELETE `/api/v1/child/delete`**  
+  Permanently delete a child.  
+  **Body**: `childId`
+
+---
+
+### 📝 Log Management
+
+- **POST `/api/v1/log/add`**  
+  Add a log entry for a child.  
+  **Body**: `childId`, `type`, `note`, `time`
+
+- **GET `/api/v1/log/getAllLogs`**  
+  Get all log entries for the user's children.
+
+---
+
+### 🛠️ Admin Features
+
+> ⚠️ These routes are intended for admin use only and should be secured.
+
+- **POST `/api/admin/getAllDataJson`**  
+  Returns all data as JSON.  
+  **Body**: `username`, `password` _(must match credentials defined in code)_
+
+- **POST `/api/admin/getAllData`**  
+  Returns all data as a downloadable Excel file.  
+  **Body**: `username`, `password` _(same as above)_
 
 ## Security
 
@@ -115,4 +224,67 @@ Thanks to the Express.js and MongoDB communities for their excellent documentati
 ## Additional Notes
 
 - The Excel export feature generates a multi-sheet Excel file containing user, child, log, and rating data.
-- The admin routes are protected by a hardcoded username and password (`datadmin` and `neo@23@pp`).
+
+## 🛠️ Admin API: Export All Data (Excel)
+
+### **POST `/api/admin/getAllData`**
+
+Generates and returns an **Excel (.xlsx)** file containing:
+
+- User data
+- Children associated with each user
+- Logs related to users
+
+### 🔐 Access
+
+This endpoint is protected by **username/password** fields in the request body. These are hardcoded in the server and should be secured in production.
+
+### 📥 Request Body
+
+```json
+{
+	"username": "datadmin",
+	"password": "neo@23@pp"
+}
+```
+
+> These must match the values in the backend.
+
+---
+
+### 📤 Response
+
+- Content-Type: `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet`
+- Disposition: `attachment; filename="user data.xlsx"`
+- Returns a downloadable Excel file with multiple sheets.
+
+---
+
+### 📄 Excel Structure
+
+#### Sheet: `User Data`
+
+Each row contains:
+
+| Column             | Description                          |
+| ------------------ | ------------------------------------ |
+| User ID            | MongoDB `_id` of user                |
+| Parent Name        | Full name of the parent              |
+| Email              | Email address                        |
+| Phone              | Phone number (if present)            |
+| Child ID           | `_id` of each child (or blank)       |
+| Child Name         | Full name of the child               |
+| IsActiveAccount    | Whether the account is marked active |
+| Date Of Birth      | Child's birth date                   |
+| Pregnancy Duration | Weeks of pregnancy (if available)    |
+| Gender             | Child gender                         |
+| ChildAddedDate     | When the child entry was created     |
+
+If a user has multiple children, each child will generate its own row with repeated parent info.
+
+---
+
+### 🗃 Data Sources
+
+- `User.find({}).populate('children')`: gets all users and children
+- `Log.aggregate(...)`: fetches logs grouped by `user_id`
